@@ -5,7 +5,7 @@ entity lab4 is
 	port (	clock 			: in std_logic;
 			reset			: in std_logic;
 			mode: in std_logic_vector(1 downto 0),
-			--enable			: in std_logic;
+			enable			: in std_logic;
 			--last_reached	: out std_logic;
 			next_prime 		: out std_logic_vector(7 downto 0));
 			
@@ -24,7 +24,7 @@ architecture behavior of lab4 is
 --					'0' when others;
 
 	-- Initialie process
-	process(clock, reset)
+	generate_prime: process(clock, reset)
 	begin
 		
 		-- If we have a reset set back to 000, need to signify on start
@@ -84,7 +84,8 @@ architecture behavior of lab4 is
 				case current is
 					when "00000011" 	=> current <= "00000111";--3->7
 					when "00000111" 	=> current <= "00011111";--7->31
-					when others => current <= "00000011";
+					
+
 				end case;
 				--color <= color + "001";
 			
@@ -94,6 +95,8 @@ architecture behavior of lab4 is
 			end if;
 		end if;
 	end process;
+	
+	process
 	
 	
 end architecture;
