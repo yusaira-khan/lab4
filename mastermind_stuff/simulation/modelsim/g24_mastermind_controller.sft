@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {g24_mastermind_controller.vho g24_mastermind_controller_vhd.sdo}}
+	{{"Fast Model"} {g24_mastermind_controller_fast.vho g24_mastermind_controller_vhd_fast.sdo}}
+}
