@@ -1,0 +1,11 @@
+
+State Machine - |g24_mastermind_controller|present_state
+Name present_state.H present_state.G present_state.F present_state.E present_state.D present_state.C present_state.B present_state.A 
+present_state.A 0 0 0 0 0 0 0 0 
+present_state.B 0 0 0 0 0 0 1 1 
+present_state.C 0 0 0 0 0 1 0 1 
+present_state.D 0 0 0 0 1 0 0 1 
+present_state.E 0 0 0 1 0 0 0 1 
+present_state.F 0 0 1 0 0 0 0 1 
+present_state.G 0 1 0 0 0 0 0 1 
+present_state.H 1 0 0 0 0 0 0 1 
