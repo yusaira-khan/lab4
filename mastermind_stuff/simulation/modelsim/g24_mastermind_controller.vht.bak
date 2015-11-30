@@ -32,7 +32,7 @@ END g24_mastermind_controller_vhd_tst;
 ARCHITECTURE g24_mastermind_controller_arch OF g24_mastermind_controller_vhd_tst IS
 -- constants                                                 
 -- signals                                                   
-SIGNAL CLK : STD_LOGIC := '0';
+SIGNAL CLK : STD_LOGIC;
 SIGNAL GR_LD : STD_LOGIC;
 SIGNAL GR_SEL : STD_LOGIC;
 SIGNAL P_SEL : STD_LOGIC;
