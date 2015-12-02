@@ -64,4 +64,5 @@ set_global_assignment -name VHDL_FILE datapath.vhd
 set_global_assignment -name VHDL_FILE g24_num1s.vhd
 set_global_assignment -name VHDL_FILE g24_minimum3.vhd
 set_global_assignment -name SDC_FILE ../time.sdc
+set_global_assignment -name VHDL_TEST_BENCH_FILE datapath_test.vht
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

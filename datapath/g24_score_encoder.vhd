@@ -15,7 +15,6 @@ ext_col <= num_exact_matches & num_color_matches;
   encode : process(ext_col) 
    begin 
   
-
   case ext_col is
   	when "100000" => score_code <= "0001";
   	when "011000" => score_code <= "0010";
@@ -23,7 +22,7 @@ ext_col <= num_exact_matches & num_color_matches;
   	when "010001" => score_code <= "0100";
   	when "010010" => score_code <= "0101";
   	when "001000" => score_code <= "0110";
-    when "001001" => score_code <= "0111";
+   when "001001" => score_code <= "0111";
   	when "001010" => score_code <= "1000";
   	when "001011" => score_code <= "1001";
   	when "000000" => score_code <= "1010";

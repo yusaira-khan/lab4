@@ -35,9 +35,12 @@ ENTITY datapath IS
 		TM_EN :  IN  STD_LOGIC;
 		TM_IN :  IN  STD_LOGIC;
 		EXT_PATTERN :  IN  STD_LOGIC_VECTOR(11 DOWNTO 0);
+		Initial_guess :  IN  STD_LOGIC_VECTOR(11 DOWNTO 0);
 		SC_CMP :  OUT  STD_LOGIC;
 		TC_LAST :  OUT  STD_LOGIC;
-		TM_OUT :  OUT  STD_LOGIC
+		TM_OUT :  OUT  STD_LOGIC;
+		NUM_EXACT: OUT  STD_LOGIC;
+		NUM_Color: OUT  STD_LOGIC
 	);
 END datapath;
 
@@ -68,39 +71,38 @@ component g24_comp6 IS
 		AeqB :  OUT  STD_LOGIC
 	);
 END  component;
-signal color : std_LOGIC_VECTOR(11 DOWNTO 0);
+signal TM_ADDR : std_LOGIC_VECTOR(11 DOWNTO 0);
 signal score1: std_LOGIC_VECTOR(5 DOWNTO 0);
 signal score2: std_LOGIC_VECTOR(5 DOWNTO 0);
-signal saved_score: std_LOGIC_VECTOR(3 DOWNTO 0);
+signal register_score: std_LOGIC_VECTOR(3 DOWNTO 0);
 signal current_score: std_LOGIC_VECTOR(3 DOWNTO 0);
-signal initial_guess: std_LOGIC_VECTOR(11 DOWNTO 0);
-signal test_pattern: std_LOGIC_VECTOR(11 DOWNTO 0);
-signal guess_pattern: std_LOGIC_VECTOR(11 DOWNTO 0);
-signal saved_guess: std_LOGIC_VECTOR(11 DOWNTO 0);
-signal test_score: std_LOGIC_VECTOR(3 DOWNTO 0);
+
+signal mux_output_pattern: std_LOGIC_VECTOR(11 DOWNTO 0);
+signal mux_output_guess: std_LOGIC_VECTOR(11 DOWNTO 0);
+signal register_guess: std_LOGIC_VECTOR(11 DOWNTO 0);
+signal mux_output_score: std_LOGIC_VECTOR(3 DOWNTO 0);
 signal solved_score: std_LOGIC_VECTOR(3 DOWNTO 0);
 
 BEGIN 
-	initial_guess<="000000001001";
 	solved_score<="0001";
 	
 	with P_SEL select  
-		test_pattern <= EXT_PATTERN when  '1', 
-							color when others;
+		mux_output_pattern <= TM_ADDR when  '1', 
+							EXT_PATTERN when others;
 		
 	with GR_SEL select   
-		guess_pattern<= color when  '1', 
-							initial_guess when others;
+		mux_output_guess<= initial_guess when  '1', 
+							 TM_ADDR when others;
 	
 	with SR_SEL select   	
-		test_score<= solved_score when  '1', 
+		mux_output_score<= solved_score when  '1', 
 						current_score when others;
 
 	master_score: g24_mastermind_score port map(
-		P4=> test_pattern(11 downto 9), P3=>test_pattern(8 downTO 6),
-		P2=>test_pattern(5 downTO 3),P1=>test_pattern(2 downTO 0),
-		G4=> saved_guess(11 downto 9), G3=>saved_guess(8 downTO 6),
-		G2=>saved_guess(5 downTO 3),G1=>saved_guess(2 downTO 0),
+		P4=> mux_output_pattern(11 downto 9), P3=>mux_output_pattern(8 downTO 6),
+		P2=>mux_output_pattern(5 downTO 3),P1=>mux_output_pattern(2 downTO 0),
+		G4=> register_guess(11 downto 9), G3=>register_guess(8 downTO 6),
+		G2=>register_guess(5 downTO 3),G1=>register_guess(2 downTO 0),
 		score_code=> current_score
 	);
 	
@@ -110,7 +112,7 @@ BEGIN
 			TM_EN 	=>TM_EN,
 			CLK 	=>CLK,
 			TC_LAST =>TC_LAST,
-			TM_ADDR => color,
+			TM_ADDR => TM_ADDR,
 			TM_OUT 	=>TM_OUT
 	);
 	
@@ -118,22 +120,22 @@ BEGIN
 	begin
 		if rising_edge(CLK) then
 			if GR_LD = '1' then 
-				saved_guess <= guess_pattern;
+				register_guess <= mux_output_guess;
 			end if;
 		end if;
 	end process;
 	
 	load_score: process (CLK)
 	begin
-		if rising_edge(CLK) then
+		if falling_edge(CLK) then
 			if SR_LD = '1' then 
-				saved_score <= current_score;
+				register_score <= current_score;
 			end if;
 		end if;
 	end process;
 
-	score1<="00"&saved_score;
-	score2<="00"&test_score;
+	score1 <= "00" & register_score;
+	score2 <= "00" & mux_output_score;
 	
 	comparison: g24_comp6 port map(A=>score1,B=>score2,AeqB=>SC_CMP);
 

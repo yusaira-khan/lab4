@@ -1,5 +1,5 @@
 Fitter report for datapath
-Tue Dec 01 23:13:05 2015
+Wed Dec 02 01:02:35 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                        ;
 +------------------------------------+--------------------------------------------------+
-; Fitter Status                      ; Successful - Tue Dec 01 23:13:05 2015            ;
+; Fitter Status                      ; Successful - Wed Dec 02 01:02:35 2015            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; datapath                                         ;
 ; Top-level Entity Name              ; datapath                                         ;
@@ -316,27 +316,27 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 ; Name            ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
 +-----------------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 ; CLK             ; M1    ; 1        ; 0            ; 13           ; 2           ; 1                     ; 0                  ; yes    ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[0]  ; E11   ; 3        ; 22           ; 27           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[10] ; H12   ; 4        ; 31           ; 27           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[11] ; E14   ; 4        ; 35           ; 27           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[1]  ; D11   ; 3        ; 22           ; 27           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[2]  ; B13   ; 4        ; 26           ; 27           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[3]  ; B16   ; 4        ; 33           ; 27           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[4]  ; B14   ; 4        ; 29           ; 27           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[5]  ; A14   ; 4        ; 29           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[6]  ; A10   ; 3        ; 20           ; 27           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[7]  ; D14   ; 4        ; 35           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[8]  ; A13   ; 4        ; 26           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; EXT_PATTERN[9]  ; C13   ; 4        ; 31           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; GR_LD           ; G12   ; 4        ; 31           ; 27           ; 3           ; 12                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; GR_SEL          ; F14   ; 4        ; 35           ; 27           ; 2           ; 12                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[0]  ; A14   ; 4        ; 29           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[10] ; D14   ; 4        ; 35           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[11] ; F14   ; 4        ; 35           ; 27           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[1]  ; H12   ; 4        ; 31           ; 27           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[2]  ; G12   ; 4        ; 31           ; 27           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[3]  ; D11   ; 3        ; 22           ; 27           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[4]  ; E11   ; 3        ; 22           ; 27           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[5]  ; C13   ; 4        ; 31           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[6]  ; B16   ; 4        ; 33           ; 27           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[7]  ; A16   ; 4        ; 33           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[8]  ; A15   ; 4        ; 33           ; 27           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; EXT_PATTERN[9]  ; F13   ; 4        ; 35           ; 27           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; GR_LD           ; B14   ; 4        ; 29           ; 27           ; 0           ; 12                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; GR_SEL          ; A11   ; 3        ; 22           ; 27           ; 1           ; 12                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 ; P_SEL           ; F12   ; 4        ; 31           ; 27           ; 2           ; 12                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SR_LD           ; B15   ; 4        ; 33           ; 27           ; 2           ; 4                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SR_SEL          ; A16   ; 4        ; 33           ; 27           ; 1           ; 4                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; TC_EN           ; A11   ; 3        ; 22           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; SR_LD           ; A13   ; 4        ; 26           ; 27           ; 1           ; 4                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; SR_SEL          ; B13   ; 4        ; 26           ; 27           ; 0           ; 4                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; TC_EN           ; E14   ; 4        ; 35           ; 27           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 ; TC_RST          ; M2    ; 1        ; 0            ; 13           ; 3           ; 3                     ; 0                  ; yes    ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; TM_EN           ; C10   ; 3        ; 18           ; 27           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; TM_IN           ; F10   ; 3        ; 18           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; TM_EN           ; E15   ; 4        ; 42           ; 27           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; TM_IN           ; D16   ; 4        ; 42           ; 27           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 +-----------------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 
 
@@ -345,9 +345,9 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 +---------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 ; Name    ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
 +---------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; SC_CMP  ; A15   ; 4        ; 33           ; 27           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; TC_LAST ; B11   ; 3        ; 22           ; 27           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; TM_OUT  ; A9    ; 3        ; 15           ; 27           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SC_CMP  ; B11   ; 3        ; 22           ; 27           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; TC_LAST ; B15   ; 4        ; 33           ; 27           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; TM_OUT  ; C14   ; 4        ; 39           ; 27           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 +---------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 
 
@@ -358,8 +358,8 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 +----------+------------------+---------------+--------------+
 ; 1        ; 2 / 41 ( 5 % )   ; 3.3V          ; --           ;
 ; 2        ; 2 / 33 ( 6 % )   ; 3.3V          ; --           ;
-; 3        ; 8 / 43 ( 19 % )  ; 3.3V          ; --           ;
-; 4        ; 15 / 40 ( 38 % ) ; 3.3V          ; --           ;
+; 3        ; 4 / 43 ( 9 % )   ; 3.3V          ; --           ;
+; 4        ; 19 / 40 ( 48 % ) ; 3.3V          ; --           ;
 ; 5        ; 0 / 39 ( 0 % )   ; 3.3V          ; --           ;
 ; 6        ; 1 / 36 ( 3 % )   ; 3.3V          ; --           ;
 ; 7        ; 0 / 40 ( 0 % )   ; 3.3V          ; --           ;
@@ -380,14 +380,14 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 ; A6       ; 320        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A7       ; 306        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A8       ; 304        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; A9       ; 298        ; 3        ; TM_OUT                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; A10      ; 293        ; 3        ; EXT_PATTERN[6]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; A11      ; 287        ; 3        ; TC_EN                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A9       ; 298        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; A10      ; 293        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; A11      ; 287        ; 3        ; GR_SEL                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A12      ; 283        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; A13      ; 281        ; 4        ; EXT_PATTERN[8]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; A14      ; 279        ; 4        ; EXT_PATTERN[5]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; A15      ; 273        ; 4        ; SC_CMP                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; A16      ; 271        ; 4        ; SR_SEL                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A13      ; 281        ; 4        ; SR_LD                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A14      ; 279        ; 4        ; EXT_PATTERN[0]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A15      ; 273        ; 4        ; EXT_PATTERN[8]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A16      ; 271        ; 4        ; EXT_PATTERN[7]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A17      ; 265        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A18      ; 251        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A19      ; 249        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -448,12 +448,12 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 ; B8       ; 303        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B9       ; 297        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B10      ; 292        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B11      ; 286        ; 3        ; TC_LAST                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B11      ; 286        ; 3        ; SC_CMP                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B12      ; 282        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; B13      ; 280        ; 4        ; EXT_PATTERN[2]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B14      ; 278        ; 4        ; EXT_PATTERN[4]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B15      ; 272        ; 4        ; SR_LD                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B16      ; 270        ; 4        ; EXT_PATTERN[3]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B13      ; 280        ; 4        ; SR_SEL                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B14      ; 278        ; 4        ; GR_LD                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B15      ; 272        ; 4        ; TC_LAST                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B16      ; 270        ; 4        ; EXT_PATTERN[6]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B17      ; 264        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B18      ; 250        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B19      ; 248        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -469,11 +469,11 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 ; C7       ; 315        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; C8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; C9       ; 310        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; C10      ; 296        ; 3        ; TM_EN                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C10      ; 296        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; C11      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; C12      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; C13      ; 275        ; 4        ; EXT_PATTERN[9]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; C14      ; 260        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; C13      ; 275        ; 4        ; EXT_PATTERN[5]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C14      ; 260        ; 4        ; TM_OUT                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; C15      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; C16      ; 254        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; C17      ; 245        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -492,12 +492,12 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 ; D8       ; 309        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D9       ; 302        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D10      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; D11      ; 289        ; 3        ; EXT_PATTERN[1]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; D11      ; 289        ; 3        ; EXT_PATTERN[3]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; D12      ; 284        ; 3        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; D13      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; D14      ; 267        ; 4        ; EXT_PATTERN[7]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; D14      ; 267        ; 4        ; EXT_PATTERN[10]                          ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; D15      ; 259        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; D16      ; 255        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; D16      ; 255        ; 4        ; TM_IN                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; D17      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; D18      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; D19      ; 240        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -514,11 +514,11 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 ; E8       ; 308        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E9       ; 301        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E10      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; E11      ; 288        ; 3        ; EXT_PATTERN[0]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; E11      ; 288        ; 3        ; EXT_PATTERN[4]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E12      ; 285        ; 3        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; E13      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; E14      ; 266        ; 4        ; EXT_PATTERN[11]                          ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; E15      ; 256        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; E14      ; 266        ; 4        ; TC_EN                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; E15      ; 256        ; 4        ; TM_EN                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E16      ;            ;          ; GNDA_PLL2                                ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; E17      ;            ;          ; GND_PLL2                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; E18      ; 243        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -535,11 +535,11 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 ; F7       ;            ;          ; GNDA_PLL3                                ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; F8       ; 312        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F9       ; 307        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; F10      ; 295        ; 3        ; TM_IN                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; F10      ; 295        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F11      ; 294        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F12      ; 276        ; 4        ; P_SEL                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; F13      ; 269        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; F14      ; 268        ; 4        ; GR_SEL                                   ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; F13      ; 269        ; 4        ; EXT_PATTERN[9]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; F14      ; 268        ; 4        ; EXT_PATTERN[11]                          ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; F15      ; 262        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F16      ;            ;          ; VCCA_PLL2                                ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; F17      ;            ;          ; VCCD_PLL2                                ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
@@ -559,7 +559,7 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 ; G9       ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; G10      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; G11      ; 291        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; G12      ; 277        ; 4        ; GR_LD                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; G12      ; 277        ; 4        ; EXT_PATTERN[2]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; G13      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; G14      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; G15      ; 261        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -581,7 +581,7 @@ The pin-out file can be found in P:/323/lab4/lab4/datapath/output_files/datapath
 ; H9       ; 300        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H10      ; 299        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H11      ; 290        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; H12      ; 274        ; 4        ; EXT_PATTERN[10]                          ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; H12      ; 274        ; 4        ; EXT_PATTERN[1]                           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; H13      ; 263        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H14      ; 257        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H15      ; 253        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -904,8 +904,8 @@ Note: User assignments will override these defaults. The user specified values a
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------------------------+--------------+
 ; |datapath                                 ; 209 (27)    ; 28 (16)                   ; 0 (0)         ; 4096        ; 1    ; 0            ; 0       ; 0         ; 25   ; 0            ; 181 (12)     ; 0 (0)             ; 28 (12)          ; |datapath                                                                                                 ; work         ;
 ;    |g24_comp6:comparison|                 ; 4 (4)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_comp6:comparison                                                                            ; work         ;
-;    |g24_mastermind_score:master_score|    ; 158 (0)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 149 (0)      ; 0 (0)             ; 9 (0)            ; |datapath|g24_mastermind_score:master_score                                                               ; work         ;
-;       |g24_color_matches:cm|              ; 137 (23)    ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 134 (23)     ; 0 (0)             ; 3 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm                                          ; work         ;
+;    |g24_mastermind_score:master_score|    ; 158 (0)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 148 (0)      ; 0 (0)             ; 10 (0)           ; |datapath|g24_mastermind_score:master_score                                                               ; work         ;
+;       |g24_color_matches:cm|              ; 137 (23)    ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 133 (23)     ; 0 (0)             ; 4 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm                                          ; work         ;
 ;          |g24_minimum3:min1|              ; 5 (5)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|g24_minimum3:min1                        ; work         ;
 ;          |g24_minimum3:min2|              ; 5 (5)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|g24_minimum3:min2                        ; work         ;
 ;          |g24_minimum3:min3|              ; 5 (5)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|g24_minimum3:min3                        ; work         ;
@@ -924,10 +924,10 @@ Note: User assignments will override these defaults. The user specified values a
 ;          |g24_num1s:num7|                 ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|g24_num1s:num7                           ; work         ;
 ;          |g24_num1s:num8|                 ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|g24_num1s:num8                           ; work         ;
 ;          |g24_num1s:num9|                 ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|g24_num1s:num9                           ; work         ;
-;          |lpm_decode:ld1|                 ; 6 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (0)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld1                           ; work         ;
-;             |decode_s6f:auto_generated|   ; 6 (6)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld1|decode_s6f:auto_generated ; work         ;
-;          |lpm_decode:ld2|                 ; 6 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (0)        ; 0 (0)             ; 1 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld2                           ; work         ;
-;             |decode_s6f:auto_generated|   ; 6 (6)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 1 (1)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld2|decode_s6f:auto_generated ; work         ;
+;          |lpm_decode:ld1|                 ; 6 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (0)        ; 0 (0)             ; 2 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld1                           ; work         ;
+;             |decode_s6f:auto_generated|   ; 6 (6)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 2 (2)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld1|decode_s6f:auto_generated ; work         ;
+;          |lpm_decode:ld2|                 ; 6 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (0)        ; 0 (0)             ; 2 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld2                           ; work         ;
+;             |decode_s6f:auto_generated|   ; 6 (6)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 2 (2)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld2|decode_s6f:auto_generated ; work         ;
 ;          |lpm_decode:ld3|                 ; 6 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (0)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld3                           ; work         ;
 ;             |decode_s6f:auto_generated|   ; 6 (6)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld3|decode_s6f:auto_generated ; work         ;
 ;          |lpm_decode:ld4|                 ; 6 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (0)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld4                           ; work         ;
@@ -938,22 +938,22 @@ Note: User assignments will override these defaults. The user specified values a
 ;             |decode_s6f:auto_generated|   ; 6 (6)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld6|decode_s6f:auto_generated ; work         ;
 ;          |lpm_decode:ld7|                 ; 6 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (0)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld7                           ; work         ;
 ;             |decode_s6f:auto_generated|   ; 6 (6)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld7|decode_s6f:auto_generated ; work         ;
-;          |lpm_decode:ld8|                 ; 6 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (0)        ; 0 (0)             ; 2 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld8                           ; work         ;
-;             |decode_s6f:auto_generated|   ; 6 (6)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 2 (2)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld8|decode_s6f:auto_generated ; work         ;
+;          |lpm_decode:ld8|                 ; 6 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (0)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld8                           ; work         ;
+;             |decode_s6f:auto_generated|   ; 6 (6)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld8|decode_s6f:auto_generated ; work         ;
 ;       |g24_num_matches:nm|                ; 11 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 9 (0)        ; 0 (0)             ; 2 (0)            ; |datapath|g24_mastermind_score:master_score|g24_num_matches:nm                                            ; work         ;
-;          |g24_comp6:comp1|                ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_num_matches:nm|g24_comp6:comp1                            ; work         ;
+;          |g24_comp6:comp1|                ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |datapath|g24_mastermind_score:master_score|g24_num_matches:nm|g24_comp6:comp1                            ; work         ;
 ;          |g24_comp6:comp2|                ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |datapath|g24_mastermind_score:master_score|g24_num_matches:nm|g24_comp6:comp2                            ; work         ;
 ;          |g24_comp6:comp3|                ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_num_matches:nm|g24_comp6:comp3                            ; work         ;
-;          |g24_comp6:comp4|                ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |datapath|g24_mastermind_score:master_score|g24_num_matches:nm|g24_comp6:comp4                            ; work         ;
+;          |g24_comp6:comp4|                ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_num_matches:nm|g24_comp6:comp4                            ; work         ;
 ;          |g24_num1s:comp|                 ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_mastermind_score:master_score|g24_num_matches:nm|g24_num1s:comp                             ; work         ;
 ;       |g24_score_encoder:se|              ; 10 (10)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 0 (0)             ; 4 (4)            ; |datapath|g24_mastermind_score:master_score|g24_score_encoder:se                                          ; work         ;
-;    |g24_possibility_table:table|          ; 28 (6)      ; 12 (0)                    ; 0 (0)         ; 4096        ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 16 (6)       ; 0 (0)             ; 12 (0)           ; |datapath|g24_possibility_table:table                                                                     ; work         ;
+;    |g24_possibility_table:table|          ; 29 (6)      ; 12 (0)                    ; 0 (0)         ; 4096        ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 17 (6)       ; 0 (0)             ; 12 (0)           ; |datapath|g24_possibility_table:table                                                                     ; work         ;
 ;       |altsyncram:table_memory[0]__1|     ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 4096        ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_possibility_table:table|altsyncram:table_memory[0]__1                                       ; work         ;
 ;          |altsyncram_cug1:auto_generated| ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 4096        ; 1    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |datapath|g24_possibility_table:table|altsyncram:table_memory[0]__1|altsyncram_cug1:auto_generated        ; work         ;
-;       |color_counter:color_counter0|      ; 4 (4)       ; 3 (3)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 3 (3)            ; |datapath|g24_possibility_table:table|color_counter:color_counter0                                        ; work         ;
-;       |color_counter:color_counter1|      ; 7 (7)       ; 3 (3)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 3 (3)            ; |datapath|g24_possibility_table:table|color_counter:color_counter1                                        ; work         ;
+;       |color_counter:color_counter0|      ; 7 (7)       ; 3 (3)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 3 (3)            ; |datapath|g24_possibility_table:table|color_counter:color_counter0                                        ; work         ;
+;       |color_counter:color_counter1|      ; 8 (8)       ; 3 (3)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 3 (3)            ; |datapath|g24_possibility_table:table|color_counter:color_counter1                                        ; work         ;
 ;       |color_counter:color_counter2|      ; 4 (4)       ; 3 (3)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 3 (3)            ; |datapath|g24_possibility_table:table|color_counter:color_counter2                                        ; work         ;
-;       |color_counter:color_counter3|      ; 7 (7)       ; 3 (3)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 3 (3)            ; |datapath|g24_possibility_table:table|color_counter:color_counter3                                        ; work         ;
+;       |color_counter:color_counter3|      ; 4 (4)       ; 3 (3)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 3 (3)            ; |datapath|g24_possibility_table:table|color_counter:color_counter3                                        ; work         ;
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -997,42 +997,42 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout                                                                                          ; Pad To Core Index ; Setting ;
 +--------------------------------------------------------------------------------------------------------------+-------------------+---------+
 ; EXT_PATTERN[0]                                                                                               ;                   ;         ;
-;      - test_pattern[0]~0                                                                                     ; 0                 ; 6       ;
+;      - mux_output_pattern[0]~0                                                                               ; 0                 ; 6       ;
 ; P_SEL                                                                                                        ;                   ;         ;
-;      - test_pattern[0]~0                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[2]~1                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[1]~2                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[3]~3                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[5]~4                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[4]~5                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[6]~6                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[8]~7                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[7]~8                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[9]~9                                                                                     ; 1                 ; 6       ;
-;      - test_pattern[11]~10                                                                                   ; 1                 ; 6       ;
-;      - test_pattern[10]~11                                                                                   ; 1                 ; 6       ;
+;      - mux_output_pattern[0]~0                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[2]~1                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[1]~2                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[3]~3                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[5]~4                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[4]~5                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[6]~6                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[8]~7                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[7]~8                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[9]~9                                                                               ; 0                 ; 6       ;
+;      - mux_output_pattern[11]~10                                                                             ; 0                 ; 6       ;
+;      - mux_output_pattern[10]~11                                                                             ; 0                 ; 6       ;
 ; EXT_PATTERN[2]                                                                                               ;                   ;         ;
-;      - test_pattern[2]~1                                                                                     ; 0                 ; 6       ;
+;      - mux_output_pattern[2]~1                                                                               ; 1                 ; 6       ;
 ; EXT_PATTERN[1]                                                                                               ;                   ;         ;
-;      - test_pattern[1]~2                                                                                     ; 0                 ; 6       ;
+;      - mux_output_pattern[1]~2                                                                               ; 0                 ; 6       ;
 ; EXT_PATTERN[3]                                                                                               ;                   ;         ;
-;      - test_pattern[3]~3                                                                                     ; 1                 ; 6       ;
+;      - mux_output_pattern[3]~3                                                                               ; 1                 ; 6       ;
 ; EXT_PATTERN[5]                                                                                               ;                   ;         ;
-;      - test_pattern[5]~4                                                                                     ; 0                 ; 6       ;
+;      - mux_output_pattern[5]~4                                                                               ; 0                 ; 6       ;
 ; EXT_PATTERN[4]                                                                                               ;                   ;         ;
-;      - test_pattern[4]~5                                                                                     ; 0                 ; 6       ;
+;      - mux_output_pattern[4]~5                                                                               ; 0                 ; 6       ;
 ; EXT_PATTERN[6]                                                                                               ;                   ;         ;
-;      - test_pattern[6]~6                                                                                     ; 0                 ; 6       ;
+;      - mux_output_pattern[6]~6                                                                               ; 0                 ; 6       ;
 ; EXT_PATTERN[8]                                                                                               ;                   ;         ;
-;      - test_pattern[8]~7                                                                                     ; 0                 ; 6       ;
+;      - mux_output_pattern[8]~7                                                                               ; 0                 ; 6       ;
 ; EXT_PATTERN[7]                                                                                               ;                   ;         ;
-;      - test_pattern[7]~8                                                                                     ; 0                 ; 6       ;
+;      - mux_output_pattern[7]~8                                                                               ; 0                 ; 6       ;
 ; EXT_PATTERN[9]                                                                                               ;                   ;         ;
-;      - test_pattern[9]~9                                                                                     ; 0                 ; 6       ;
+;      - mux_output_pattern[9]~9                                                                               ; 0                 ; 6       ;
 ; EXT_PATTERN[11]                                                                                              ;                   ;         ;
-;      - test_pattern[11]~10                                                                                   ; 0                 ; 6       ;
+;      - mux_output_pattern[11]~10                                                                             ; 0                 ; 6       ;
 ; EXT_PATTERN[10]                                                                                              ;                   ;         ;
-;      - test_pattern[10]~11                                                                                   ; 1                 ; 6       ;
+;      - mux_output_pattern[10]~11                                                                             ; 0                 ; 6       ;
 ; SR_SEL                                                                                                       ;                   ;         ;
 ;      - g24_comp6:comparison|AeqB~0                                                                           ; 0                 ; 6       ;
 ;      - g24_comp6:comparison|AeqB~1                                                                           ; 0                 ; 6       ;
@@ -1043,38 +1043,38 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; TC_EN                                                                                                        ;                   ;         ;
 ;      - g24_possibility_table:table|color_counter:color_counter0|process_0~0                                  ; 0                 ; 6       ;
 ; GR_SEL                                                                                                       ;                   ;         ;
-;      - guess_pattern[3]~0                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[5]~1                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[4]~2                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[7]~3                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[6]~4                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[8]~5                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[0]~6                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[2]~7                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[1]~8                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[9]~9                                                                                    ; 0                 ; 6       ;
-;      - guess_pattern[11]~10                                                                                  ; 0                 ; 6       ;
-;      - guess_pattern[10]~11                                                                                  ; 0                 ; 6       ;
+;      - mux_output_guess[3]~0                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[5]~1                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[4]~2                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[7]~3                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[6]~4                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[8]~5                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[0]~6                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[2]~7                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[1]~8                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[9]~9                                                                                 ; 0                 ; 6       ;
+;      - mux_output_guess[11]~10                                                                               ; 0                 ; 6       ;
+;      - mux_output_guess[10]~11                                                                               ; 0                 ; 6       ;
 ; GR_LD                                                                                                        ;                   ;         ;
-;      - saved_guess[0]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[1]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[2]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[3]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[4]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[5]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[6]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[7]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[8]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[9]                                                                                        ; 0                 ; 6       ;
-;      - saved_guess[10]                                                                                       ; 0                 ; 6       ;
-;      - saved_guess[11]                                                                                       ; 0                 ; 6       ;
+;      - register_guess[0]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[1]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[2]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[3]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[4]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[5]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[6]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[7]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[8]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[9]                                                                                     ; 0                 ; 6       ;
+;      - register_guess[10]                                                                                    ; 0                 ; 6       ;
+;      - register_guess[11]                                                                                    ; 0                 ; 6       ;
 ; SR_LD                                                                                                        ;                   ;         ;
-;      - saved_score[0]                                                                                        ; 0                 ; 6       ;
-;      - saved_score[1]                                                                                        ; 0                 ; 6       ;
-;      - saved_score[2]                                                                                        ; 0                 ; 6       ;
-;      - saved_score[3]                                                                                        ; 0                 ; 6       ;
+;      - register_score[0]                                                                                     ; 0                 ; 6       ;
+;      - register_score[1]                                                                                     ; 0                 ; 6       ;
+;      - register_score[2]                                                                                     ; 0                 ; 6       ;
+;      - register_score[3]                                                                                     ; 0                 ; 6       ;
 ; TM_EN                                                                                                        ;                   ;         ;
-;      - g24_possibility_table:table|altsyncram:table_memory[0]__1|altsyncram_cug1:auto_generated|ram_block1a0 ; 1                 ; 6       ;
+;      - g24_possibility_table:table|altsyncram:table_memory[0]__1|altsyncram_cug1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
 ; TM_IN                                                                                                        ;                   ;         ;
 ;      - g24_possibility_table:table|altsyncram:table_memory[0]__1|altsyncram_cug1:auto_generated|ram_block1a0 ; 0                 ; 6       ;
 +--------------------------------------------------------------------------------------------------------------+-------------------+---------+
@@ -1086,14 +1086,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                                                 ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +----------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; CLK                                                                  ; PIN_M1             ; 29      ; Clock        ; yes    ; Global Clock         ; GCLK3            ; --                        ;
-; GR_LD                                                                ; PIN_G12            ; 12      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; SR_LD                                                                ; PIN_B15            ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; GR_LD                                                                ; PIN_B14            ; 12      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; SR_LD                                                                ; PIN_A13            ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
 ; TC_RST                                                               ; PIN_M2             ; 12      ; Async. clear ; yes    ; Global Clock         ; GCLK1            ; --                        ;
-; TM_EN                                                                ; PIN_C10            ; 1       ; Write enable ; no     ; --                   ; --               ; --                        ;
-; g24_possibility_table:table|color_counter:color_counter0|process_0~0 ; LCCOMB_X26_Y23_N0  ; 6       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; g24_possibility_table:table|color_counter:color_counter1|process_0~0 ; LCCOMB_X26_Y24_N4  ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; g24_possibility_table:table|color_counter:color_counter2|process_0~2 ; LCCOMB_X26_Y23_N4  ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; g24_possibility_table:table|color_counter:color_counter3|process_0~0 ; LCCOMB_X26_Y23_N26 ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; TM_EN                                                                ; PIN_E15            ; 1       ; Write enable ; no     ; --                   ; --               ; --                        ;
+; g24_possibility_table:table|color_counter:color_counter0|process_0~0 ; LCCOMB_X33_Y22_N26 ; 6       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; g24_possibility_table:table|color_counter:color_counter1|process_0~0 ; LCCOMB_X33_Y22_N18 ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; g24_possibility_table:table|color_counter:color_counter2|process_0~2 ; LCCOMB_X33_Y22_N0  ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; g24_possibility_table:table|color_counter:color_counter3|process_0~0 ; LCCOMB_X33_Y22_N28 ; 3       ; Clock enable ; no     ; --                   ; --               ; --                        ;
 +----------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1128,30 +1128,30 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; g24_possibility_table:table|color_counter:color_counter3|color[2]                                               ; 8       ;
 ; g24_possibility_table:table|color_counter:color_counter3|color[0]                                               ; 8       ;
 ; g24_possibility_table:table|color_counter:color_counter1|color[1]                                               ; 8       ;
-; saved_guess[10]                                                                                                 ; 7       ;
-; saved_guess[11]                                                                                                 ; 7       ;
-; saved_guess[9]                                                                                                  ; 7       ;
-; saved_guess[1]                                                                                                  ; 7       ;
-; saved_guess[2]                                                                                                  ; 7       ;
-; saved_guess[0]                                                                                                  ; 7       ;
-; saved_guess[8]                                                                                                  ; 7       ;
-; saved_guess[6]                                                                                                  ; 7       ;
-; saved_guess[7]                                                                                                  ; 7       ;
-; saved_guess[4]                                                                                                  ; 7       ;
-; saved_guess[5]                                                                                                  ; 7       ;
-; saved_guess[3]                                                                                                  ; 7       ;
-; test_pattern[10]~11                                                                                             ; 7       ;
-; test_pattern[11]~10                                                                                             ; 7       ;
-; test_pattern[9]~9                                                                                               ; 7       ;
-; test_pattern[7]~8                                                                                               ; 7       ;
-; test_pattern[8]~7                                                                                               ; 7       ;
-; test_pattern[6]~6                                                                                               ; 7       ;
-; test_pattern[4]~5                                                                                               ; 7       ;
-; test_pattern[5]~4                                                                                               ; 7       ;
-; test_pattern[3]~3                                                                                               ; 7       ;
-; test_pattern[1]~2                                                                                               ; 7       ;
-; test_pattern[2]~1                                                                                               ; 7       ;
-; test_pattern[0]~0                                                                                               ; 7       ;
+; register_guess[10]                                                                                              ; 7       ;
+; register_guess[11]                                                                                              ; 7       ;
+; register_guess[9]                                                                                               ; 7       ;
+; register_guess[1]                                                                                               ; 7       ;
+; register_guess[2]                                                                                               ; 7       ;
+; register_guess[0]                                                                                               ; 7       ;
+; register_guess[8]                                                                                               ; 7       ;
+; register_guess[6]                                                                                               ; 7       ;
+; register_guess[7]                                                                                               ; 7       ;
+; register_guess[4]                                                                                               ; 7       ;
+; register_guess[5]                                                                                               ; 7       ;
+; register_guess[3]                                                                                               ; 7       ;
+; mux_output_pattern[10]~11                                                                                       ; 7       ;
+; mux_output_pattern[11]~10                                                                                       ; 7       ;
+; mux_output_pattern[9]~9                                                                                         ; 7       ;
+; mux_output_pattern[7]~8                                                                                         ; 7       ;
+; mux_output_pattern[8]~7                                                                                         ; 7       ;
+; mux_output_pattern[6]~6                                                                                         ; 7       ;
+; mux_output_pattern[4]~5                                                                                         ; 7       ;
+; mux_output_pattern[5]~4                                                                                         ; 7       ;
+; mux_output_pattern[3]~3                                                                                         ; 7       ;
+; mux_output_pattern[1]~2                                                                                         ; 7       ;
+; mux_output_pattern[2]~1                                                                                         ; 7       ;
+; mux_output_pattern[0]~0                                                                                         ; 7       ;
 ; g24_possibility_table:table|color_counter:color_counter0|process_0~0                                            ; 6       ;
 ; g24_mastermind_score:master_score|g24_num_matches:nm|g24_num1s:comp|num1s[1]~1                                  ; 6       ;
 ; g24_mastermind_score:master_score|g24_color_matches:cm|Add5~10                                                  ; 5       ;
@@ -1314,18 +1314,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; g24_possibility_table:table|comb~3                                                                              ; 1       ;
 ; g24_possibility_table:table|comb~2                                                                              ; 1       ;
 ; g24_mastermind_score:master_score|g24_score_encoder:se|Mux0~2                                                   ; 1       ;
-; guess_pattern[10]~11                                                                                            ; 1       ;
-; guess_pattern[11]~10                                                                                            ; 1       ;
-; guess_pattern[9]~9                                                                                              ; 1       ;
-; guess_pattern[1]~8                                                                                              ; 1       ;
-; guess_pattern[2]~7                                                                                              ; 1       ;
-; guess_pattern[0]~6                                                                                              ; 1       ;
-; guess_pattern[8]~5                                                                                              ; 1       ;
-; guess_pattern[6]~4                                                                                              ; 1       ;
-; guess_pattern[7]~3                                                                                              ; 1       ;
-; guess_pattern[4]~2                                                                                              ; 1       ;
-; guess_pattern[5]~1                                                                                              ; 1       ;
-; guess_pattern[3]~0                                                                                              ; 1       ;
+; mux_output_guess[10]~11                                                                                         ; 1       ;
+; mux_output_guess[11]~10                                                                                         ; 1       ;
+; mux_output_guess[9]~9                                                                                           ; 1       ;
+; mux_output_guess[1]~8                                                                                           ; 1       ;
+; mux_output_guess[2]~7                                                                                           ; 1       ;
+; mux_output_guess[0]~6                                                                                           ; 1       ;
+; mux_output_guess[8]~5                                                                                           ; 1       ;
+; mux_output_guess[6]~4                                                                                           ; 1       ;
+; mux_output_guess[7]~3                                                                                           ; 1       ;
+; mux_output_guess[4]~2                                                                                           ; 1       ;
+; mux_output_guess[5]~1                                                                                           ; 1       ;
+; mux_output_guess[3]~0                                                                                           ; 1       ;
 ; g24_possibility_table:table|color_counter:color_counter3|Mux2~0                                                 ; 1       ;
 ; g24_possibility_table:table|color_counter:color_counter3|Mux1~0                                                 ; 1       ;
 ; g24_possibility_table:table|comb~1                                                                              ; 1       ;
@@ -1343,12 +1343,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; g24_comp6:comparison|AeqB~2                                                                                     ; 1       ;
 ; g24_comp6:comparison|AeqB~1                                                                                     ; 1       ;
 ; g24_comp6:comparison|AeqB~0                                                                                     ; 1       ;
-; saved_score[3]                                                                                                  ; 1       ;
+; register_score[3]                                                                                               ; 1       ;
 ; g24_mastermind_score:master_score|g24_score_encoder:se|Mux2~0                                                   ; 1       ;
-; saved_score[1]                                                                                                  ; 1       ;
+; register_score[1]                                                                                               ; 1       ;
 ; g24_mastermind_score:master_score|g24_score_encoder:se|Mux1~1                                                   ; 1       ;
-; saved_score[2]                                                                                                  ; 1       ;
-; saved_score[0]                                                                                                  ; 1       ;
+; register_score[2]                                                                                               ; 1       ;
+; register_score[0]                                                                                               ; 1       ;
 ; g24_mastermind_score:master_score|g24_score_encoder:se|Mux3~0                                                   ; 1       ;
 ; g24_mastermind_score:master_score|g24_color_matches:cm|Add5~8                                                   ; 1       ;
 ; g24_mastermind_score:master_score|g24_color_matches:cm|Add1~1                                                   ; 1       ;
@@ -1379,7 +1379,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+-------------+----------------------+-----------------+-----------------+
 ; Name                                                                                                ; Type ; Mode             ; Clock Mode   ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Port A Input Registers ; Port A Output Registers ; Port B Input Registers ; Port B Output Registers ; Size ; Implementation Port A Depth ; Implementation Port A Width ; Implementation Port B Depth ; Implementation Port B Width ; Implementation Bits ; M4Ks ; MIF  ; Location    ; Mixed Width RDW Mode ; Port A RDW Mode ; Port B RDW Mode ;
 +-----------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+-------------+----------------------+-----------------+-----------------+
-; g24_possibility_table:table|altsyncram:table_memory[0]__1|altsyncram_cug1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; Single Clock ; 4096         ; 1            ; 4096         ; 1            ; yes                    ; no                      ; yes                    ; no                      ; 4096 ; 4096                        ; 1                           ; 4096                        ; 1                           ; 4096                ; 1    ; None ; M4K_X17_Y23 ; Old data             ; Don't care      ; Don't care      ;
+; g24_possibility_table:table|altsyncram:table_memory[0]__1|altsyncram_cug1:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; Single Clock ; 4096         ; 1            ; 4096         ; 1            ; yes                    ; no                      ; yes                    ; no                      ; 4096 ; 4096                        ; 1                           ; 4096                        ; 1                           ; 4096                ; 1    ; None ; M4K_X41_Y23 ; Old data             ; Don't care      ; Don't care      ;
 +-----------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------+-------------+----------------------+-----------------+-----------------+
 Note: Fitter may spread logical memories into multiple blocks to improve timing. The actual required RAM blocks can be found in the Fitter Resource Usage section.
 
@@ -1389,14 +1389,14 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +-----------------------------+------------------------+
 ; Other Routing Resource Type ; Usage                  ;
 +-----------------------------+------------------------+
-; Block interconnects         ; 204 / 54,004 ( < 1 % ) ;
-; C16 interconnects           ; 1 / 2,100 ( < 1 % )    ;
-; C4 interconnects            ; 78 / 36,000 ( < 1 % )  ;
-; Direct links                ; 40 / 54,004 ( < 1 % )  ;
+; Block interconnects         ; 217 / 54,004 ( < 1 % ) ;
+; C16 interconnects           ; 3 / 2,100 ( < 1 % )    ;
+; C4 interconnects            ; 102 / 36,000 ( < 1 % ) ;
+; Direct links                ; 44 / 54,004 ( < 1 % )  ;
 ; Global clocks               ; 2 / 16 ( 13 % )        ;
-; Local interconnects         ; 126 / 18,752 ( < 1 % ) ;
+; Local interconnects         ; 121 / 18,752 ( < 1 % ) ;
 ; R24 interconnects           ; 4 / 1,900 ( < 1 % )    ;
-; R4 interconnects            ; 147 / 46,920 ( < 1 % ) ;
+; R4 interconnects            ; 121 / 46,920 ( < 1 % ) ;
 +-----------------------------+------------------------+
 
 
@@ -1416,23 +1416,22 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; 9                                           ; 0                            ;
 ; 10                                          ; 0                            ;
 ; 11                                          ; 0                            ;
-; 12                                          ; 1                            ;
-; 13                                          ; 2                            ;
-; 14                                          ; 2                            ;
-; 15                                          ; 1                            ;
-; 16                                          ; 8                            ;
+; 12                                          ; 2                            ;
+; 13                                          ; 0                            ;
+; 14                                          ; 1                            ;
+; 15                                          ; 5                            ;
+; 16                                          ; 6                            ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.29) ; Number of LABs  (Total = 14) ;
+; LAB-wide Signals  (Average = 1.43) ; Number of LABs  (Total = 14) ;
 +------------------------------------+------------------------------+
 ; 1 Async. clear                     ; 4                            ;
-; 1 Clock                            ; 7                            ;
-; 1 Clock enable                     ; 6                            ;
-; 2 Clock enables                    ; 1                            ;
+; 1 Clock                            ; 8                            ;
+; 1 Clock enable                     ; 8                            ;
 +------------------------------------+------------------------------+
 
 
@@ -1453,40 +1452,39 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
 ; 11                                           ; 0                            ;
-; 12                                           ; 1                            ;
-; 13                                           ; 1                            ;
-; 14                                           ; 2                            ;
-; 15                                           ; 1                            ;
-; 16                                           ; 2                            ;
-; 17                                           ; 1                            ;
-; 18                                           ; 0                            ;
-; 19                                           ; 4                            ;
+; 12                                           ; 2                            ;
+; 13                                           ; 0                            ;
+; 14                                           ; 1                            ;
+; 15                                           ; 2                            ;
+; 16                                           ; 1                            ;
+; 17                                           ; 0                            ;
+; 18                                           ; 1                            ;
+; 19                                           ; 6                            ;
 ; 20                                           ; 0                            ;
-; 21                                           ; 0                            ;
-; 22                                           ; 2                            ;
+; 21                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 8.29) ; Number of LABs  (Total = 14) ;
+; Number of Signals Sourced Out  (Average = 9.14) ; Number of LABs  (Total = 14) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
 ; 1                                               ; 1                            ;
 ; 2                                               ; 0                            ;
 ; 3                                               ; 2                            ;
-; 4                                               ; 3                            ;
-; 5                                               ; 1                            ;
+; 4                                               ; 2                            ;
+; 5                                               ; 0                            ;
 ; 6                                               ; 0                            ;
-; 7                                               ; 0                            ;
+; 7                                               ; 1                            ;
 ; 8                                               ; 0                            ;
-; 9                                               ; 1                            ;
+; 9                                               ; 0                            ;
 ; 10                                              ; 0                            ;
-; 11                                              ; 0                            ;
+; 11                                              ; 2                            ;
 ; 12                                              ; 2                            ;
-; 13                                              ; 1                            ;
-; 14                                              ; 0                            ;
+; 13                                              ; 0                            ;
+; 14                                              ; 1                            ;
 ; 15                                              ; 2                            ;
 ; 16                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
@@ -1495,7 +1493,7 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 12.57) ; Number of LABs  (Total = 14) ;
+; Number of Distinct Inputs  (Average = 13.64) ; Number of LABs  (Total = 14) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
@@ -1507,15 +1505,17 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; 7                                            ; 0                            ;
 ; 8                                            ; 0                            ;
 ; 9                                            ; 1                            ;
-; 10                                           ; 2                            ;
-; 11                                           ; 3                            ;
-; 12                                           ; 1                            ;
+; 10                                           ; 3                            ;
+; 11                                           ; 2                            ;
+; 12                                           ; 0                            ;
 ; 13                                           ; 2                            ;
-; 14                                           ; 2                            ;
-; 15                                           ; 2                            ;
+; 14                                           ; 0                            ;
+; 15                                           ; 3                            ;
 ; 16                                           ; 0                            ;
 ; 17                                           ; 0                            ;
-; 18                                           ; 1                            ;
+; 18                                           ; 0                            ;
+; 19                                           ; 1                            ;
+; 20                                           ; 2                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -1621,7 +1621,7 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  35 pins available
         Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  40 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  43 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -1634,7 +1634,7 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.27 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.25 seconds.
 Info (306004): Started post-fitting delay annotation
 Warning (306006): Found 3 output pins without output pin load capacitance assignment
     Info (306007): Pin "SC_CMP" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
@@ -1643,15 +1643,15 @@ Warning (306006): Found 3 output pins without output pin load capacitance assign
 Info (306005): Delay annotation completed successfully
 Info (306004): Started post-fitting delay annotation
 Info (306005): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Info (176045): Design uses memory blocks. Violating setup or hold times of memory block address registers for either read or write operations could cause memory contents to be corrupted. Make sure that all memory block address registers meet the setup and hold time requirements.
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info (144001): Generated suppressed messages file P:/323/lab4/lab4/datapath/output_files/datapath.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 1065 megabytes
-    Info: Processing ended: Tue Dec 01 23:13:06 2015
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Processing ended: Wed Dec 02 01:02:35 2015
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:04
 
 
 +----------------------------+

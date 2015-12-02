@@ -1,5 +1,5 @@
 Analysis & Synthesis report for datapath
-Tue Dec 01 23:12:56 2015
+Wed Dec 02 01:02:25 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -61,7 +61,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Dec 01 23:12:56 2015            ;
+; Analysis & Synthesis Status        ; Successful - Wed Dec 02 01:02:25 2015            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; datapath                                         ;
 ; Top-level Entity Name              ; datapath                                         ;
@@ -657,7 +657,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -667,7 +667,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Dec 01 23:12:49 2015
+    Info: Processing started: Wed Dec 02 01:02:17 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off datapath -c datapath
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file g24_color_matches.vhd
@@ -756,9 +756,9 @@ Info (21057): Implemented 238 device resources after synthesis - the final resou
     Info (21061): Implemented 212 logic cells
     Info (21064): Implemented 1 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 529 megabytes
-    Info: Processing ended: Tue Dec 01 23:12:56 2015
-    Info: Elapsed time: 00:00:07
+    Info: Peak virtual memory: 510 megabytes
+    Info: Processing ended: Wed Dec 02 01:02:25 2015
+    Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:03
 
 

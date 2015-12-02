@@ -1,11 +1,11 @@
 -- exact match counting part of the scoring circuit for the Mastermind game 
 -- 
--- entity name: g24_num_matches 
+-- entity name: g00_num_matches 
 -- 
--- Author: 
--- Yusaira Khan yusaira.khan@mail.mcgill.ca
--- Michael Curtis michael.curtis@mail.mcgill.ca
--- Date: October 2015
+-- Copyright (C) 2015 James Clark 
+-- Version 1.0 
+-- Author: James J. Clark; clark@cim.mcgill.ca 
+-- Date: June 25, 2015 
  
 library ieee; -- allows use of the std_logic_vector type 
 use ieee.std_logic_1164.all; 

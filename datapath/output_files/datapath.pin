@@ -76,14 +76,14 @@ GND*                         : A5        :        :                   :         
 GND*                         : A6        :        :                   :         : 3         :                
 GND*                         : A7        :        :                   :         : 3         :                
 GND*                         : A8        :        :                   :         : 3         :                
-TM_OUT                       : A9        : output : 3.3-V LVTTL       :         : 3         : N              
-EXT_PATTERN[6]               : A10       : input  : 3.3-V LVTTL       :         : 3         : N              
-TC_EN                        : A11       : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : A9        :        :                   :         : 3         :                
+GND*                         : A10       :        :                   :         : 3         :                
+GR_SEL                       : A11       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : A12       :        :                   :         : 4         :                
-EXT_PATTERN[8]               : A13       : input  : 3.3-V LVTTL       :         : 4         : N              
-EXT_PATTERN[5]               : A14       : input  : 3.3-V LVTTL       :         : 4         : N              
-SC_CMP                       : A15       : output : 3.3-V LVTTL       :         : 4         : N              
-SR_SEL                       : A16       : input  : 3.3-V LVTTL       :         : 4         : N              
+SR_LD                        : A13       : input  : 3.3-V LVTTL       :         : 4         : N              
+EXT_PATTERN[0]               : A14       : input  : 3.3-V LVTTL       :         : 4         : N              
+EXT_PATTERN[8]               : A15       : input  : 3.3-V LVTTL       :         : 4         : N              
+EXT_PATTERN[7]               : A16       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : A17       :        :                   :         : 4         :                
 GND*                         : A18       :        :                   :         : 4         :                
 GND*                         : A19       :        :                   :         : 4         :                
@@ -144,12 +144,12 @@ GND*                         : B7        :        :                   :         
 GND*                         : B8        :        :                   :         : 3         :                
 GND*                         : B9        :        :                   :         : 3         :                
 GND*                         : B10       :        :                   :         : 3         :                
-TC_LAST                      : B11       : output : 3.3-V LVTTL       :         : 3         : N              
+SC_CMP                       : B11       : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : B12       :        :                   :         : 4         :                
-EXT_PATTERN[2]               : B13       : input  : 3.3-V LVTTL       :         : 4         : N              
-EXT_PATTERN[4]               : B14       : input  : 3.3-V LVTTL       :         : 4         : N              
-SR_LD                        : B15       : input  : 3.3-V LVTTL       :         : 4         : N              
-EXT_PATTERN[3]               : B16       : input  : 3.3-V LVTTL       :         : 4         : N              
+SR_SEL                       : B13       : input  : 3.3-V LVTTL       :         : 4         : N              
+GR_LD                        : B14       : input  : 3.3-V LVTTL       :         : 4         : N              
+TC_LAST                      : B15       : output : 3.3-V LVTTL       :         : 4         : N              
+EXT_PATTERN[6]               : B16       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : B17       :        :                   :         : 4         :                
 GND*                         : B18       :        :                   :         : 4         :                
 GND*                         : B19       :        :                   :         : 4         :                
@@ -165,11 +165,11 @@ VCCIO3                       : C6        : power  :                   : 3.3V    
 GND*                         : C7        :        :                   :         : 3         :                
 GND                          : C8        : gnd    :                   :         :           :                
 GND*                         : C9        :        :                   :         : 3         :                
-TM_EN                        : C10       : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : C10       :        :                   :         : 3         :                
 VCCIO3                       : C11       : power  :                   : 3.3V    : 3         :                
 VCCIO4                       : C12       : power  :                   : 3.3V    : 4         :                
-EXT_PATTERN[9]               : C13       : input  : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : C14       :        :                   :         : 4         :                
+EXT_PATTERN[5]               : C13       : input  : 3.3-V LVTTL       :         : 4         : N              
+TM_OUT                       : C14       : output : 3.3-V LVTTL       :         : 4         : N              
 GND                          : C15       : gnd    :                   :         :           :                
 GND*                         : C16       :        :                   :         : 4         :                
 GND*                         : C17       :        :                   :         : 4         :                
@@ -188,12 +188,12 @@ GND*                         : D7        :        :                   :         
 GND*                         : D8        :        :                   :         : 3         :                
 GND*                         : D9        :        :                   :         : 3         :                
 GND                          : D10       : gnd    :                   :         :           :                
-EXT_PATTERN[1]               : D11       : input  : 3.3-V LVTTL       :         : 3         : N              
+EXT_PATTERN[3]               : D11       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : D12       :        :                   :         : 3         :                
 GND                          : D13       : gnd    :                   :         :           :                
-EXT_PATTERN[7]               : D14       : input  : 3.3-V LVTTL       :         : 4         : N              
+EXT_PATTERN[10]              : D14       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : D15       :        :                   :         : 4         :                
-GND*                         : D16       :        :                   :         : 4         :                
+TM_IN                        : D16       : input  : 3.3-V LVTTL       :         : 4         : N              
 VCCIO4                       : D17       : power  :                   : 3.3V    : 4         :                
 GND                          : D18       : gnd    :                   :         :           :                
 GND*                         : D19       :        :                   :         : 5         :                
@@ -210,11 +210,11 @@ GND*                         : E7        :        :                   :         
 GND*                         : E8        :        :                   :         : 3         :                
 GND*                         : E9        :        :                   :         : 3         :                
 VCCIO3                       : E10       : power  :                   : 3.3V    : 3         :                
-EXT_PATTERN[0]               : E11       : input  : 3.3-V LVTTL       :         : 3         : N              
+EXT_PATTERN[4]               : E11       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : E12       :        :                   :         : 3         :                
 VCCIO4                       : E13       : power  :                   : 3.3V    : 4         :                
-EXT_PATTERN[11]              : E14       : input  : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : E15       :        :                   :         : 4         :                
+TC_EN                        : E14       : input  : 3.3-V LVTTL       :         : 4         : N              
+TM_EN                        : E15       : input  : 3.3-V LVTTL       :         : 4         : N              
 GNDA_PLL2                    : E16       : gnd    :                   :         :           :                
 GND_PLL2                     : E17       : gnd    :                   :         :           :                
 GND*                         : E18       :        :                   :         : 5         :                
@@ -231,11 +231,11 @@ GND_PLL3                     : F6        : gnd    :                   :         
 GNDA_PLL3                    : F7        : gnd    :                   :         :           :                
 GND*                         : F8        :        :                   :         : 3         :                
 GND*                         : F9        :        :                   :         : 3         :                
-TM_IN                        : F10       : input  : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : F10       :        :                   :         : 3         :                
 GND*                         : F11       :        :                   :         : 3         :                
 P_SEL                        : F12       : input  : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : F13       :        :                   :         : 4         :                
-GR_SEL                       : F14       : input  : 3.3-V LVTTL       :         : 4         : N              
+EXT_PATTERN[9]               : F13       : input  : 3.3-V LVTTL       :         : 4         : N              
+EXT_PATTERN[11]              : F14       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : F15       :        :                   :         : 4         :                
 VCCA_PLL2                    : F16       : power  :                   : 1.2V    :           :                
 VCCD_PLL2                    : F17       : power  :                   : 1.2V    :           :                
@@ -255,7 +255,7 @@ GND*                         : G8        :        :                   :         
 VCCIO3                       : G9        : power  :                   : 3.3V    : 3         :                
 GND                          : G10       : gnd    :                   :         :           :                
 GND*                         : G11       :        :                   :         : 3         :                
-GR_LD                        : G12       : input  : 3.3-V LVTTL       :         : 4         : N              
+EXT_PATTERN[2]               : G12       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND                          : G13       : gnd    :                   :         :           :                
 VCCIO4                       : G14       : power  :                   : 3.3V    : 4         :                
 GND*                         : G15       :        :                   :         : 4         :                
@@ -277,7 +277,7 @@ GND*                         : H8        :        :                   :         
 GND*                         : H9        :        :                   :         : 3         :                
 GND*                         : H10       :        :                   :         : 3         :                
 GND*                         : H11       :        :                   :         : 3         :                
-EXT_PATTERN[10]              : H12       : input  : 3.3-V LVTTL       :         : 4         : N              
+EXT_PATTERN[1]               : H12       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : H13       :        :                   :         : 4         :                
 GND*                         : H14       :        :                   :         : 4         :                
 GND*                         : H15       :        :                   :         : 4         :                
