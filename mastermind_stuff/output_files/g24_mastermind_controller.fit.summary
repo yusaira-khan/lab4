@@ -1,12 +1,12 @@
-Fitter Status : Successful - Mon Nov 30 07:29:34 2015
+Fitter Status : Successful - Mon Nov 30 23:12:19 2015
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : g24_mastermind_controller
 Top-level Entity Name : g24_mastermind_controller
 Family : Cyclone II
 Device : EP2C20F484C7
 Timing Models : Final
-Total logic elements : 33 / 18,752 ( < 1 % )
-    Total combinational functions : 33 / 18,752 ( < 1 % )
+Total logic elements : 34 / 18,752 ( < 1 % )
+    Total combinational functions : 34 / 18,752 ( < 1 % )
     Dedicated logic registers : 17 / 18,752 ( < 1 % )
 Total registers : 17
 Total pins : 16 / 315 ( 5 % )

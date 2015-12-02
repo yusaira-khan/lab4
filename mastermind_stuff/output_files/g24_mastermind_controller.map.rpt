@@ -1,5 +1,5 @@
 Analysis & Synthesis report for g24_mastermind_controller
-Mon Nov 30 07:29:27 2015
+Mon Nov 30 23:12:07 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -45,13 +45,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Nov 30 07:29:27 2015            ;
+; Analysis & Synthesis Status        ; Successful - Mon Nov 30 23:12:06 2015            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; g24_mastermind_controller                        ;
 ; Top-level Entity Name              ; g24_mastermind_controller                        ;
 ; Family                             ; Cyclone II                                       ;
-; Total logic elements               ; 34                                               ;
-;     Total combinational functions  ; 33                                               ;
+; Total logic elements               ; 35                                               ;
+;     Total combinational functions  ; 34                                               ;
 ;     Dedicated logic registers      ; 17                                               ;
 ; Total registers                    ; 17                                               ;
 ; Total pins                         ; 16                                               ;
@@ -152,7 +152,7 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -160,7 +160,7 @@ applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-8         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -178,16 +178,16 @@ applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 34    ;
+; Estimated Total logic elements              ; 35    ;
 ;                                             ;       ;
-; Total combinational functions               ; 33    ;
+; Total combinational functions               ; 34    ;
 ; Logic element usage by number of LUT inputs ;       ;
 ;     -- 4 input functions                    ; 20    ;
-;     -- 3 input functions                    ; 5     ;
-;     -- <=2 input functions                  ; 8     ;
+;     -- 3 input functions                    ; 7     ;
+;     -- <=2 input functions                  ; 7     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 33    ;
+;     -- normal mode                          ; 34    ;
 ;     -- arithmetic mode                      ; 0     ;
 ;                                             ;       ;
 ; Total registers                             ; 17    ;
@@ -198,8 +198,8 @@ applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out node                        ; START ;
 ; Maximum fan-out                             ; 18    ;
-; Total fan-out                               ; 170   ;
-; Average fan-out                             ; 2.58  ;
+; Total fan-out                               ; 174   ;
+; Average fan-out                             ; 2.60  ;
 +---------------------------------------------+-------+
 
 
@@ -208,7 +208,7 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name        ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------+--------------+
-; |g24_mastermind_controller ; 33 (33)           ; 17 (17)      ; 0           ; 0            ; 0       ; 0         ; 16   ; 0            ; |g24_mastermind_controller ; work         ;
+; |g24_mastermind_controller ; 34 (34)           ; 17 (17)      ; 0           ; 0            ; 0       ; 0         ; 16   ; 0            ; |g24_mastermind_controller ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -280,7 +280,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -290,9 +290,9 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Mon Nov 30 07:29:23 2015
+    Info: Processing started: Mon Nov 30 23:11:57 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off g24_mastermind_controller -c g24_mastermind_controller
-Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file g24_mastermind_controller.vhd
     Info (12022): Found design unit 1: g24_mastermind_controller-arch
     Info (12023): Found entity 1: g24_mastermind_controller
@@ -301,14 +301,14 @@ Info (13000): Registers with preset signals will power-up high
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 50 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 52 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 6 input pins
     Info (21059): Implemented 10 output pins
-    Info (21061): Implemented 34 logic cells
+    Info (21061): Implemented 36 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 497 megabytes
-    Info: Processing ended: Mon Nov 30 07:29:27 2015
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 501 megabytes
+    Info: Processing ended: Mon Nov 30 23:12:07 2015
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:02
 
 

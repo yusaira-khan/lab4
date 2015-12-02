@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="datapath">
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld2" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld6" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld1" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld3" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld5" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld7" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld4" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|g24_mastermind_score:master_score|g24_color_matches:cm|lpm_decode:ld8" CBX_FILE_NAME="decode_s6f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|datapath|g24_possibility_table:table|altsyncram:table_memory[0]__1" CBX_FILE_NAME="altsyncram_cug1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

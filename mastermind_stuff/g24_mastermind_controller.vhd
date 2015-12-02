@@ -36,6 +36,7 @@ begin
 					present_state <= C;
 					TC_RST <= '1';--resetting table reading/writing
 					TC_EN <='0';
+					TM_EN<='0';
 				end if;
 				
 			when C => --wait for a clock cycle to remove reset and load guess
@@ -57,6 +58,7 @@ begin
 				if SC_CMP = '1' then --END
 					SOLVED <= '1';
 					
+					
 				elsif SC_CMP = '0' then
 					present_state <= F;
 					P_SEL <='1';--work with  all table patterns
@@ -66,6 +68,7 @@ begin
 					SR_LD <='0';--don't save score 
 					SR_SEL <='0';--compare saved score with table score
 				end if;
+				
 			
 			when F => --wait for a clock cycle to check saved score against table pattern
 					if SC_CMP = '0' then --entry in the table does not give the same score as hidden pattern's
